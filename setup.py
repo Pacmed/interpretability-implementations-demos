@@ -14,11 +14,11 @@ setuptools.setup(
     url="https://github.com/Pacmed/interpretability-implementations-demos",
     packages=setuptools.find_packages(),
     install_requires=[
-        'numpy',
-        'scipy',
-        'matplotlib',
-        'pandas',
-        'scikit-learn',
+        'numpy==1.16.0',
+        'scipy==1.4.1',
+        'matplotlib==3.1.2',
+        'pandas==1.0.3',
+        'scikit-learn==0.23.1',
         'fim @ git+https://github.com/Pacmed/pyfim-clone',                
     ],
     classifiers=[
