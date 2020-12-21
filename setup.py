@@ -17,8 +17,8 @@ setuptools.setup(
         'numpy==1.16.0',
         'scipy==1.4.1',
         'matplotlib==3.1.2',
-        'pandas==0.25.0',
-        'scikit-learn==0.21.3',
+        'pandas>=0.25.0',
+        'scikit-learn>=0.21.3',
         'fim @ git+https://github.com/Pacmed/pyfim-clone',                
     ],
     classifiers=[
